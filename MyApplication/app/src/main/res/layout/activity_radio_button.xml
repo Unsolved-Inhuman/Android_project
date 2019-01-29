@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".radioButton">
+
+
+
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Text"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        />
+    <RadioGroup
+        android:id="@+id/radioGroupID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+           android:layout_margin="50dp"
+            android:id="@+id/buttonMarvel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MARVEL"
+            android:textSize="30dp"
+
+
+
+            />
+        <RadioButton
+           android:layout_marginHorizontal="50dp"
+            android:id="@+id/buttonDC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DC"
+            android:textSize="30dp"
+
+
+
+            />
+
+    </RadioGroup>
+    <Button
+        android:id="@+id/radioButtonId"
+        android:layout_margin="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GO"
+        android:textSize="30dp"
+        android:textAlignment="center"
+
+
+        />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+
+    android:padding="75dp"
+
+    tools:context=".MainActivity">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+
+        android:id="@+id/buttonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/login"
+        android:text="@string/Button_text"
+        android:textStyle="bold"
+
+
+        />
+    <Button
+        android:id="@+id/checkButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/login"
+        android:text="@string/Check_boxButton"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/dateId"
+        android:layout_width="221dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/login"
+        android:text="DATE"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        />
+
+    <Button
+        android:id="@+id/TimeId"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/login"
+        android:text="TIME"
+        android:textStyle="bold"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>

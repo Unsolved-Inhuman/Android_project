@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Text">WHO IS YOUR FAVOURITE ?</string>
+    <string name="Button_text"> UNLOCK TEXT VIEW</string>
+    <string name="checkboxButton"> UNLOCK TEXT VIEW</string>
+    <string name="okButton"> OK</string>
+    <string name="alertBoxTitle"> Warning</string>
+    <string name="alertMessage">Are You Sure ?</string>
+
+
+    <string name="Check_boxButton">UNLOCK CHECK BOX </string>
+
+    <string name="checkBox1">IRON MAN </string>
+    <string name="checkBox2">HULK</string>
+    <string name="checkBox3">SPIDER MAN</string>
+    <string name="checkBox4">SUPER MAN</string>
+
+
+    <string name="newWindowText">=>TEXT VIEW\n=>SCROLL VIEW\n=>TOAST\n\nThe version history of the Android mobile operating system began with the public release of the Android beta on November 5, 2007. \n\nThe first commercial version, Android 1.0, was released on September 23, 2008.\n\n Android is continually developed by Google and the Open Handset Alliance, and it has seen a number of updates to its base operating system since the initial release.
+
+Versions 1.0 and 1.1 were not released under specific code names, although Android 1.1 was unofficially known as Petit Four.\n\n Android code names are confectionery-themed and have been in alphabetical order since 2009 Android 1.5 Cupcake.\n\n The most recent version of Android is Android 9 Pie, which was released in August 2018.\n\n\n
+
+</string>
+
+
+</resources>
